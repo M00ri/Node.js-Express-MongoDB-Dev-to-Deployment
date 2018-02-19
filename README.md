@@ -1,4 +1,4 @@
-# This is a Tutorial from Brad Traversy
+# This is a course from Brad Traversy on Udemy.com
 https://www.udemy.com/nodejs-express-mongodb-dev-to-deployment/learn/v4/overview
 
 ## Topics 1. Project:
