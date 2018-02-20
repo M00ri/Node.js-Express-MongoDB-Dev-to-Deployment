@@ -1,8 +1,9 @@
-# This is a course from Brad Traversy on Udemy.com
+# This is the first project from Brad Traversy's Udemy course Node.js, Express & MongoDB Dev to Deployment
 
 https://www.udemy.com/nodejs-express-mongodb-dev-to-deployment/learn/v4/overview
 
-## Topics 1. Project:
+## 1. Project - Vidlot 
+## Topics:
 Express  
 Mongoose  
 Heroku  
