@@ -2,11 +2,18 @@
 
 const express = require('express');
 const exphbs = require('express-handlebars');
+const mongoose = require('mongoose');
 
 const app = express();
 
+// Allow to use the defined static folders
 app.use(express.static('node_modules/materialize-css'));
 app.use(express.static('views'));
+
+// Connect to mongoose
+mongoose.connect('mongodb://localhost/watchjot-dev')
+    .then(() =>  console.log('MongoDB Connected...'))
+    .catch(err => console.log(err));
 
 // Handlebars Middleware
 app.engine('handlebars', exphbs({
