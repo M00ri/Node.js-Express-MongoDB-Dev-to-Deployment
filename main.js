@@ -6,6 +6,7 @@ const exphbs = require('express-handlebars');
 const app = express();
 
 app.use(express.static('node_modules/materialize-css'));
+app.use(express.static('views'));
 
 // Handlebars Middleware
 app.engine('handlebars', exphbs({
