@@ -5,6 +5,8 @@ const exphbs = require('express-handlebars');
 
 const app = express();
 
+app.use(express.static('node_modules/materialize-css'));
+
 // Handlebars Middleware
 app.engine('handlebars', exphbs({
     defaultLayout: 'main'
@@ -13,7 +15,7 @@ app.set('view engine', 'handlebars');
 
 // Index Route
 app.get('/', (req, res) => {
-    const title = 'Welcome'
+    const title ='Welcome'
     res.render('index', {
         title: title
     });
