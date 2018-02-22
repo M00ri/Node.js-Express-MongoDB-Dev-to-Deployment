@@ -34,6 +34,11 @@ app.get('/about', (req, res) => {
     res.render('about');
 });
 
+// todo/add Route
+app.get('/add', (req, res) => {
+    res.render('add');
+});
+
 const port = 5000;
 
 app.listen(port, () => {
