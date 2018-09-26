@@ -2,7 +2,7 @@
 
 https://www.udemy.com/nodejs-express-mongodb-dev-to-deployment/learn/v4/overview
 
-## 1. Project - Vidlot 
+## 1. Project - Vidjot 
 ## Topics:
 Express  
 Mongoose  
